@@ -739,7 +739,13 @@ function App() {
                 </div>
               </div>
               
-            </div>
+              <div className="flex items-center space-x-4">
+                <div className={`w-14 h-14 rounded-2xl flex items-center justify-center ${
+                  isDarkMode ? 'bg-purple-900' : 'bg-purple-100'
+                }`}>
+                  
+                </div>
+                <div>
                  
                 </div>
               </div>

@@ -739,15 +739,7 @@ function App() {
                 </div>
               </div>
               
-              <div className="flex items-center space-x-4">
-                
-                  
-                </div>
-                <div>
-                 
-                </div>
-              </div>
-            </div>
+              
 
             <div className={`rounded-2xl shadow-xl p-8 border ${
               isDarkMode 

@@ -739,7 +739,22 @@ function App() {
                 </div>
               </div>
               
-              
+              <div className="flex items-center space-x-4">
+                <div className={`w-14 h-14 rounded-2xl flex items-center justify-center ${
+                  isDarkMode ? 'bg-purple-900' : 'bg-purple-100'
+                }`}>
+                  <MapPin className={`w-7 h-7 ${isDarkMode ? 'text-purple-400' : 'text-purple-600'}`} />
+                </div>
+                <div>
+                  <h3 className={`text-xl font-semibold ${isDarkMode ? 'text-white' : 'text-gray-900'}`}>
+                    Visit Our Showroom
+                  </h3>
+                  <p className={`text-lg ${isDarkMode ? 'text-gray-300' : 'text-gray-600'}`}>
+                    123 Technology Boulevard<br />Smart City, CA 90210
+                  </p>
+                </div>
+              </div>
+            </div>
 
             <div className={`rounded-2xl shadow-xl p-8 border ${
               isDarkMode 

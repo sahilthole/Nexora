@@ -684,61 +684,7 @@ function App() {
       </section>
 
       {/* Testimonials Section */}
-      <section id="testimonials" className={`py-20 px-4 sm:px-6 lg:px-8 ${
-        isDarkMode ? 'bg-black' : 'bg-white'
-      }`}>
-        <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-16">
-            <h2 className={`text-4xl lg:text-5xl font-bold mb-6 ${
-              isDarkMode ? 'text-white' : 'text-gray-900'
-            }`}>
-              What Our Clients Say
-            </h2>
-            <p className={`text-xl ${isDarkMode ? 'text-gray-300' : 'text-gray-600'}`}>
-              Hear from homeowners who have transformed their living spaces with NexOra
-            </p>
-          </div>
-
-          <div className="grid lg:grid-cols-3 gap-8">
-            {testimonials.map((testimonial, index) => (
-              <div 
-                key={index}
-                className={`rounded-2xl shadow-lg p-8 border hover:shadow-xl transition-all ${
-                  isDarkMode 
-                    ? 'bg-gray-900 border-gray-800' 
-                    : 'bg-gray-50 border-gray-200'
-                }`}
-              >
-                <div className="flex mb-4">
-                  {[...Array(testimonial.rating)].map((_, i) => (
-                    <Star key={i} className="w-5 h-5 text-yellow-400 fill-current" />
-                  ))}
-                </div>
-                <p className={`mb-6 italic leading-relaxed ${
-                  isDarkMode ? 'text-gray-300' : 'text-gray-600'
-                }`}>
-                  "{testimonial.content}"
-                </p>
-                <div className="flex items-center space-x-4">
-                  <img 
-                    src={testimonial.image} 
-                    alt={testimonial.name}
-                    className="w-12 h-12 rounded-full object-cover"
-                  />
-                  <div>
-                    <div className={`font-semibold ${isDarkMode ? 'text-white' : 'text-gray-900'}`}>
-                      {testimonial.name}
-                    </div>
-                    <div className={`text-sm ${isDarkMode ? 'text-gray-400' : 'text-gray-500'}`}>
-                      {testimonial.role}
-                    </div>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
+      
 
       {/* Contact Section */}
       <section id="contact" className={`py-20 px-4 sm:px-6 lg:px-8 ${
@@ -772,7 +718,7 @@ function App() {
                     Call Us
                   </h3>
                   <p className={`text-lg ${isDarkMode ? 'text-gray-300' : 'text-gray-600'}`}>
-                    (555) 123-SMART
+                    9284746779
                   </p>
                 </div>
               </div>
@@ -788,7 +734,7 @@ function App() {
                     Email Us
                   </h3>
                   <p className={`text-lg ${isDarkMode ? 'text-gray-300' : 'text-gray-600'}`}>
-                    hello@nexorahomes.com
+                    sahilthole1008@gmail.com
                   </p>
                 </div>
               </div>
@@ -800,12 +746,7 @@ function App() {
                   <MapPin className={`w-7 h-7 ${isDarkMode ? 'text-purple-400' : 'text-purple-600'}`} />
                 </div>
                 <div>
-                  <h3 className={`text-xl font-semibold ${isDarkMode ? 'text-white' : 'text-gray-900'}`}>
-                    Visit Our Showroom
-                  </h3>
-                  <p className={`text-lg ${isDarkMode ? 'text-gray-300' : 'text-gray-600'}`}>
-                    123 Technology Boulevard<br />Smart City, CA 90210
-                  </p>
+                 
                 </div>
               </div>
             </div>

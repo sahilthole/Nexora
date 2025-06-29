@@ -740,7 +740,7 @@ function App() {
               </div>
               
               
-           
+            </div>
 
             <div className={`rounded-2xl shadow-xl p-8 border ${
               isDarkMode 
